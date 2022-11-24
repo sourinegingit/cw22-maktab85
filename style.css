@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar, .navbar .nav-rigth ul, .navbar .nav-rigth ul .nav-left, .navbar .nav-left {
+  display: flex;
+  justify-content: space-between;
+  background-color: #444444;
+  padding: 0 25px;
+}
+.navbar a, .navbar .nav-rigth ul a, .navbar .nav-left a {
+  color: #fefefe;
+  text-decoration: none;
+}
+.navbar .nav-left a {
+  gap: 8px;
+  padding: 20px 15px;
+  border: 2px solid rgba(0, 0, 0, 0.123);
+  display: flex;
+}
+.navbar .nav-rigth ul {
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar .nav-rigth ul li {
+  padding: 25px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.123);
+}
+
+.image-bk {
+  position: relative;
+}
+.image-bk img {
+  height: 350px;
+  width: 100%;
+}
+.image-bk .text {
+  width: 45%;
+  padding: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 250, 250, 0.8);
+  text-align: center;
+  border: 1px solid rgba(255, 250, 250, 0.8);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.image-bk .text span {
+  color: red;
+  text-decoration: underline;
+}
+.image-bk .text h2 {
+  margin-bottom: 4%;
+}
+.image-bk .text .paragraph {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+}
+.image-bk .form {
+  width: 70%;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  border: 1px solid transparent;
+  justify-content: space-between;
+}
+.image-bk .form input, .image-bk .form select {
+  border-radius: 10px;
+  width: 25%;
+  text-align: right;
+  padding: 2%;
+}
+.image-bk .form button {
+  padding: 2%;
+  border-radius: 10px;
+  background-color: yellow;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
